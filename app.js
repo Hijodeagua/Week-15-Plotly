@@ -52,7 +52,7 @@ function buildCharts(sample) {
 
     //  Build a horizontal bar Chart
    
-    var yticks = otu_ids.slice(0, 10).map(otuID => `OTU ${otuID}`).reverse(),
+    var yticks = otu_ids.slice(0, 10).map(otuID => `OTU ${otuID}`).reverse()
     var bar_data =[
       {
         title: "Top 10 Cultures Found",
