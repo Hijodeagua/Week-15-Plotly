@@ -12,7 +12,7 @@ function buildMetadata(sample) {
     buildGauge(result.wfreq);
 
     });
-  }
+  };
 
 function buildCharts(sample) {
 
@@ -96,6 +96,6 @@ function init() {
 function optionChanged(newSample) {
   buildCharts(newSample);
   buildMetadata(newSample);
-}
+};
 
 init();
