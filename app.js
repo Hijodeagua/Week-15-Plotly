@@ -12,7 +12,7 @@ function buildMetadata(sample) {
     buildGauge(result.wfreq);
 
     });
-  };
+  }
 
 function buildCharts(sample) {
 
@@ -91,11 +91,11 @@ function init() {
     buildCharts(firstSample);
     buildMetadata(firstSample);
   });
-};
+}
 
 function optionChanged(newSample) {
   buildCharts(newSample);
   buildMetadata(newSample);
-};
+}
 
 init();
